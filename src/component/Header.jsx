@@ -4,7 +4,6 @@ import { PiFlaskFill } from "react-icons/pi";
 import { CgMenuGridO } from "react-icons/cg";
 
 const PageHeader = styled.div`
-    position: relative;
 `
 const NavBar = styled.div`
     & > button{
