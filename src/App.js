@@ -1,10 +1,12 @@
 import './App.css';
-import Count from './component/count';
+import Header from './component/Header';
+import Body from './component/Body';
 
 function App() {
   return (
     <div>
-      <Count />
+      <Header />
+      <Body />
     </div>
   );
 }
