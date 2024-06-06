@@ -2,9 +2,11 @@ import './App.css';
 import Header from './component/Header';
 import Body from './component/Body';
 
+
+
 function App() {
   return (
-    <div>
+    <div id='main'>
       <Header />
       <Body />
     </div>
