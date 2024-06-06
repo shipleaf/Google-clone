@@ -4,6 +4,9 @@ import { PiFlaskFill } from "react-icons/pi";
 import { CgMenuGridO } from "react-icons/cg";
 
 const PageHeader = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 `
 const NavBar = styled.div`
     & > button{
@@ -13,11 +16,8 @@ const NavBar = styled.div`
         margin-left: 8px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        
-    }    
-    position: absolute;
-    right: 0%;
+        justify-content: space-between;
+    };
     padding: 12px;
     padding-top: 15px;
     display: flex;
@@ -39,11 +39,12 @@ const User = styled.div`
 function Header() {
     return (
         <PageHeader>
+            <div></div>
             <NavBar>
                 <button>Gmail</button>
                 <button>이미지</button>
-                <button><PiFlaskFill size='25' style={{color: '#5F6368'}}/></button>
-                <button><CgMenuGridO size='25'style={{color: '#5F6368'}}/></button>
+                <button><PiFlaskFill size='25' style={{ color: '#5F6368' }} /></button>
+                <button><CgMenuGridO size='25' style={{ color: '#5F6368' }} /></button>
                 <button>
                     <User>
                         <span>선엽</span>
@@ -56,4 +57,4 @@ function Header() {
 
 
 
-export default Header
+export default Header;
